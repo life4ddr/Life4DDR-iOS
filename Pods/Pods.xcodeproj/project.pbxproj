@@ -1,0 +1,929 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03E083ED7ADC1B6F1F9604017D460E64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		46076EBE819798CF04114E4BA095090B /* DLRadioButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9271294C4675FB2212C6DE16AE15EF /* DLRadioButton-dummy.m */; };
+		6832E8B15B09102291B7A621E484E46F /* Pods-Life4-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 752752DAC5F6F3548FAD570CF083AB5E /* Pods-Life4-dummy.m */; };
+		9621251F99E5C334E250D62BDFE22C8B /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A462EE762B9C2637564A1254CF053B /* DLRadioButton.m */; };
+		BCD827BE12FA0F784CC4FBD611987B30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C5219FA0606BFEE8F3BD0FA75BC65151 /* DLRadioButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 79004246FA482B1F5413822B0AC6E9ED /* DLRadioButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C804330A6E5F6F930B19352DFD23D808 /* Pods-Life4UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F8B98B848CD848513F75BDC2087E893 /* Pods-Life4UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D398F1AF7BF5FC48857F09E34C5E0AE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D448138E0F8E269E001B9BB4C65D3236 /* Pods-Life4Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1930CA3787D7FD6ED3D26FEAF70DE91 /* Pods-Life4Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E09F31E0837EB599F1F3366101026666 /* Pods-Life4UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D12CBD1E2A916F10E0DF1262ACC2D97 /* Pods-Life4UITests-dummy.m */; };
+		E29E7C160A42C37D9E557396D6450E4D /* DLRadioButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6658C2CDE9960CB1367BA7BC6973553 /* DLRadioButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F92CC99AF909DB7970FDAEE35A6C8041 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FA04EDA8DE0E232DC1FC520E72B6E2CC /* Pods-Life4Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A9AEC8BB511ED5515B7BF77082382F /* Pods-Life4Tests-dummy.m */; };
+		FC698EDCB5D0255FABF9F1F20D84EC92 /* Pods-Life4-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 984B6CB42157A3C3CE4223FEC4D405ED /* Pods-Life4-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85517308AD4EA0F8EC52798CE1B1A66E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BED8F38B6D4A3AD6DFF85D18F9F09435;
+			remoteInfo = DLRadioButton;
+		};
+		BC660E0ADE803D5681B5A5139AA3AA68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BCF8FB31EB4726D9016137FC3EB19AB;
+			remoteInfo = "Pods-Life4";
+		};
+		D301F10AB43BB5545E17CFF73CD91466 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BCF8FB31EB4726D9016137FC3EB19AB;
+			remoteInfo = "Pods-Life4";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		073B640C01371A229131EF03FBB468DA /* Pods-Life4UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Life4UITests.modulemap"; sourceTree = "<group>"; };
+		0EF0AFC618DFB5557FE95EEB1F30493E /* Pods-Life4Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Life4Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1317C1C3DA12320DA29948BD4AD97B52 /* Pods-Life4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Life4.debug.xcconfig"; sourceTree = "<group>"; };
+		1C083CA8C64191E516DCC40A9DBD4DF1 /* DLRadioButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-prefix.pch"; sourceTree = "<group>"; };
+		260582864A95F232F2FCBA8D5F3603A2 /* Pods-Life4-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Life4-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3311253419B088DE0E69E499A13A28F7 /* Pods-Life4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Life4.release.xcconfig"; sourceTree = "<group>"; };
+		33C29AA4C3884FDB131576C7B47F8FAA /* Pods_Life4Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Life4Tests.framework; path = "Pods-Life4Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3836B452FACC98F448E42BDD5BCD93E4 /* Pods-Life4UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Life4UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3BDC830DD0578D420279DA3F77DB867F /* Pods-Life4Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Life4Tests-Info.plist"; sourceTree = "<group>"; };
+		3C8F7B65D2B4F209F4F87F82B07C0501 /* Pods-Life4-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Life4-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3D12CBD1E2A916F10E0DF1262ACC2D97 /* Pods-Life4UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Life4UITests-dummy.m"; sourceTree = "<group>"; };
+		3E26BA03994713FBEB9C3406695782F1 /* DLRadioButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DLRadioButton.framework; path = DLRadioButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4042D310252F6BC3EC1338786CD71CEC /* Pods_Life4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Life4.framework; path = "Pods-Life4.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46A462EE762B9C2637564A1254CF053B /* DLRadioButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLRadioButton.m; path = DLRadioButton/DLRadioButton.m; sourceTree = "<group>"; };
+		4F8B98B848CD848513F75BDC2087E893 /* Pods-Life4UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Life4UITests-umbrella.h"; sourceTree = "<group>"; };
+		59EF51BC0B3C9627253FA5F928FDF1B5 /* DLRadioButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DLRadioButton.modulemap; sourceTree = "<group>"; };
+		5CFD2D4B5FC512474E285E7F2299F63E /* Pods-Life4Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Life4Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D9271294C4675FB2212C6DE16AE15EF /* DLRadioButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DLRadioButton-dummy.m"; sourceTree = "<group>"; };
+		64845BD6A941DD4E61C9F6D41BD614D5 /* Pods-Life4UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Life4UITests.release.xcconfig"; sourceTree = "<group>"; };
+		752752DAC5F6F3548FAD570CF083AB5E /* Pods-Life4-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Life4-dummy.m"; sourceTree = "<group>"; };
+		79004246FA482B1F5413822B0AC6E9ED /* DLRadioButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLRadioButton.h; path = DLRadioButton/DLRadioButton.h; sourceTree = "<group>"; };
+		7CDF97CF863E5F2603AFC1F7A300C25D /* Pods-Life4UITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Life4UITests-Info.plist"; sourceTree = "<group>"; };
+		7D21DABD3F3BBAD26A2A8391EE6967AF /* Pods-Life4Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Life4Tests.modulemap"; sourceTree = "<group>"; };
+		984B6CB42157A3C3CE4223FEC4D405ED /* Pods-Life4-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Life4-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A077C2A392ACA0B51B699ACE77ADB344 /* Pods-Life4UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Life4UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A112E1DDC7F229FE4BCF1BA31E81BB26 /* Pods-Life4Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Life4Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A6658C2CDE9960CB1367BA7BC6973553 /* DLRadioButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-umbrella.h"; sourceTree = "<group>"; };
+		AE2384F4F1EF8A14840F90ECCA7E9E09 /* Pods-Life4-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Life4-acknowledgements.plist"; sourceTree = "<group>"; };
+		B1AEF602386D3A4A92F5006B64E50A71 /* Pods_Life4UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Life4UITests.framework; path = "Pods-Life4UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1930CA3787D7FD6ED3D26FEAF70DE91 /* Pods-Life4Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Life4Tests-umbrella.h"; sourceTree = "<group>"; };
+		C68B6912298CCF381E743ADC661E1EC1 /* Pods-Life4UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Life4UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D6A9AEC8BB511ED5515B7BF77082382F /* Pods-Life4Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Life4Tests-dummy.m"; sourceTree = "<group>"; };
+		D8B84D781EF46099AD91CF723D9E54F6 /* Pods-Life4Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Life4Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DE34DAA409E34D5D29A5D4A0722FF8D5 /* DLRadioButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLRadioButton.xcconfig; sourceTree = "<group>"; };
+		DE5CFA9CF97DC0228021EEE5D2ED9A03 /* Pods-Life4-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Life4-frameworks.sh"; sourceTree = "<group>"; };
+		EE3C26A7E52F08786E7924A4EEA7220C /* DLRadioButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DLRadioButton-Info.plist"; sourceTree = "<group>"; };
+		FFA855D9585C64E32D771A3A70714E2B /* Pods-Life4.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Life4.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93495F341ECBBD05D905D15AC73BDF65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD827BE12FA0F784CC4FBD611987B30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED6BB442E3DED0E501A9484E76BE9DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D398F1AF7BF5FC48857F09E34C5E0AE8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77FB7FDA29F7521F4252169D393D24E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E083ED7ADC1B6F1F9604017D460E64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F98FA07FC6114B9BA755F1D4BE89FD4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92CC99AF909DB7970FDAEE35A6C8041 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10FF9F1E68DF705EF2AB40D08D453DB6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				286C2448208C1BD0C6F808120BCAD926 /* Pods-Life4 */,
+				A8B97C54EB3D479D986ECBEA565E20ED /* Pods-Life4Tests */,
+				92F07DE1D5AD0361C11D34FE087907DD /* Pods-Life4UITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		286C2448208C1BD0C6F808120BCAD926 /* Pods-Life4 */ = {
+			isa = PBXGroup;
+			children = (
+				FFA855D9585C64E32D771A3A70714E2B /* Pods-Life4.modulemap */,
+				3C8F7B65D2B4F209F4F87F82B07C0501 /* Pods-Life4-acknowledgements.markdown */,
+				AE2384F4F1EF8A14840F90ECCA7E9E09 /* Pods-Life4-acknowledgements.plist */,
+				752752DAC5F6F3548FAD570CF083AB5E /* Pods-Life4-dummy.m */,
+				DE5CFA9CF97DC0228021EEE5D2ED9A03 /* Pods-Life4-frameworks.sh */,
+				260582864A95F232F2FCBA8D5F3603A2 /* Pods-Life4-Info.plist */,
+				984B6CB42157A3C3CE4223FEC4D405ED /* Pods-Life4-umbrella.h */,
+				1317C1C3DA12320DA29948BD4AD97B52 /* Pods-Life4.debug.xcconfig */,
+				3311253419B088DE0E69E499A13A28F7 /* Pods-Life4.release.xcconfig */,
+			);
+			name = "Pods-Life4";
+			path = "Target Support Files/Pods-Life4";
+			sourceTree = "<group>";
+		};
+		4ED5590E9508617B763973DBEF60E783 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E26BA03994713FBEB9C3406695782F1 /* DLRadioButton.framework */,
+				4042D310252F6BC3EC1338786CD71CEC /* Pods_Life4.framework */,
+				33C29AA4C3884FDB131576C7B47F8FAA /* Pods_Life4Tests.framework */,
+				B1AEF602386D3A4A92F5006B64E50A71 /* Pods_Life4UITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F21FBD1FF3F71C0D30FF2B55B215038 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				59EF51BC0B3C9627253FA5F928FDF1B5 /* DLRadioButton.modulemap */,
+				DE34DAA409E34D5D29A5D4A0722FF8D5 /* DLRadioButton.xcconfig */,
+				5D9271294C4675FB2212C6DE16AE15EF /* DLRadioButton-dummy.m */,
+				EE3C26A7E52F08786E7924A4EEA7220C /* DLRadioButton-Info.plist */,
+				1C083CA8C64191E516DCC40A9DBD4DF1 /* DLRadioButton-prefix.pch */,
+				A6658C2CDE9960CB1367BA7BC6973553 /* DLRadioButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DLRadioButton";
+			sourceTree = "<group>";
+		};
+		92F07DE1D5AD0361C11D34FE087907DD /* Pods-Life4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				073B640C01371A229131EF03FBB468DA /* Pods-Life4UITests.modulemap */,
+				3836B452FACC98F448E42BDD5BCD93E4 /* Pods-Life4UITests-acknowledgements.markdown */,
+				C68B6912298CCF381E743ADC661E1EC1 /* Pods-Life4UITests-acknowledgements.plist */,
+				3D12CBD1E2A916F10E0DF1262ACC2D97 /* Pods-Life4UITests-dummy.m */,
+				7CDF97CF863E5F2603AFC1F7A300C25D /* Pods-Life4UITests-Info.plist */,
+				4F8B98B848CD848513F75BDC2087E893 /* Pods-Life4UITests-umbrella.h */,
+				A077C2A392ACA0B51B699ACE77ADB344 /* Pods-Life4UITests.debug.xcconfig */,
+				64845BD6A941DD4E61C9F6D41BD614D5 /* Pods-Life4UITests.release.xcconfig */,
+			);
+			name = "Pods-Life4UITests";
+			path = "Target Support Files/Pods-Life4UITests";
+			sourceTree = "<group>";
+		};
+		9A650DF3D8C3D03343460EC96E0D7119 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2E006B4E040FA591FD0DC6B9040B89E /* DLRadioButton */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A8B97C54EB3D479D986ECBEA565E20ED /* Pods-Life4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7D21DABD3F3BBAD26A2A8391EE6967AF /* Pods-Life4Tests.modulemap */,
+				0EF0AFC618DFB5557FE95EEB1F30493E /* Pods-Life4Tests-acknowledgements.markdown */,
+				A112E1DDC7F229FE4BCF1BA31E81BB26 /* Pods-Life4Tests-acknowledgements.plist */,
+				D6A9AEC8BB511ED5515B7BF77082382F /* Pods-Life4Tests-dummy.m */,
+				3BDC830DD0578D420279DA3F77DB867F /* Pods-Life4Tests-Info.plist */,
+				C1930CA3787D7FD6ED3D26FEAF70DE91 /* Pods-Life4Tests-umbrella.h */,
+				5CFD2D4B5FC512474E285E7F2299F63E /* Pods-Life4Tests.debug.xcconfig */,
+				D8B84D781EF46099AD91CF723D9E54F6 /* Pods-Life4Tests.release.xcconfig */,
+			);
+			name = "Pods-Life4Tests";
+			path = "Target Support Files/Pods-Life4Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9A650DF3D8C3D03343460EC96E0D7119 /* Pods */,
+				4ED5590E9508617B763973DBEF60E783 /* Products */,
+				10FF9F1E68DF705EF2AB40D08D453DB6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2E006B4E040FA591FD0DC6B9040B89E /* DLRadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				79004246FA482B1F5413822B0AC6E9ED /* DLRadioButton.h */,
+				46A462EE762B9C2637564A1254CF053B /* DLRadioButton.m */,
+				5F21FBD1FF3F71C0D30FF2B55B215038 /* Support Files */,
+			);
+			name = DLRadioButton;
+			path = DLRadioButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		042E21698549CC2D939AEF644300EA18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E29E7C160A42C37D9E557396D6450E4D /* DLRadioButton-umbrella.h in Headers */,
+				C5219FA0606BFEE8F3BD0FA75BC65151 /* DLRadioButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D44C195AD980BB37C5F3744D59656BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC698EDCB5D0255FABF9F1F20D84EC92 /* Pods-Life4-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA20A2A96DA6637F0B37963596D3FEB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C804330A6E5F6F930B19352DFD23D808 /* Pods-Life4UITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F53F00F10FF185715FC9C7761C8DBEF8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D448138E0F8E269E001B9BB4C65D3236 /* Pods-Life4Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5BCF8FB31EB4726D9016137FC3EB19AB /* Pods-Life4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904F06BA2BFFD952C5FBDC47847D0ED4 /* Build configuration list for PBXNativeTarget "Pods-Life4" */;
+			buildPhases = (
+				7D44C195AD980BB37C5F3744D59656BA /* Headers */,
+				48A2371D20AF46091B914D9E9FCB8F74 /* Sources */,
+				F98FA07FC6114B9BA755F1D4BE89FD4D /* Frameworks */,
+				727C2694FB1093444C3640D259E66FA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB3A565081A92D977581FCD61508F0A7 /* PBXTargetDependency */,
+			);
+			name = "Pods-Life4";
+			productName = "Pods-Life4";
+			productReference = 4042D310252F6BC3EC1338786CD71CEC /* Pods_Life4.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		75ADF49CB0EE5C06E956EB81DA67986D /* Pods-Life4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC84FB85EA20CD6C95DD0E4ABC0E0296 /* Build configuration list for PBXNativeTarget "Pods-Life4Tests" */;
+			buildPhases = (
+				F53F00F10FF185715FC9C7761C8DBEF8 /* Headers */,
+				67102404AF079FDF75769FCA6387EEE8 /* Sources */,
+				AED6BB442E3DED0E501A9484E76BE9DF /* Frameworks */,
+				D8DEEA805C872EA7640E4F0383822664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEB4995E05314B5AB81A2061991BDAA1 /* PBXTargetDependency */,
+			);
+			name = "Pods-Life4Tests";
+			productName = "Pods-Life4Tests";
+			productReference = 33C29AA4C3884FDB131576C7B47F8FAA /* Pods_Life4Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8442A4810DFC4A0C0DEB6D9899DFF36F /* Pods-Life4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 309736D45E93FA807ED6E7B7B0D693C6 /* Build configuration list for PBXNativeTarget "Pods-Life4UITests" */;
+			buildPhases = (
+				BA20A2A96DA6637F0B37963596D3FEB2 /* Headers */,
+				771F93164131159333F7A40E30BCF143 /* Sources */,
+				F77FB7FDA29F7521F4252169D393D24E /* Frameworks */,
+				408EA36DB743F16116A6B19E9B4171A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D4DA78D48D9FFE9264C2ABA1F79CC97 /* PBXTargetDependency */,
+			);
+			name = "Pods-Life4UITests";
+			productName = "Pods-Life4UITests";
+			productReference = B1AEF602386D3A4A92F5006B64E50A71 /* Pods_Life4UITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BED8F38B6D4A3AD6DFF85D18F9F09435 /* DLRadioButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87AB35F442A65AB7A3F31FE027C26974 /* Build configuration list for PBXNativeTarget "DLRadioButton" */;
+			buildPhases = (
+				042E21698549CC2D939AEF644300EA18 /* Headers */,
+				491106F648A199B7352F838E2B5B107D /* Sources */,
+				93495F341ECBBD05D905D15AC73BDF65 /* Frameworks */,
+				8961E51E48F32A896073C1461708CB0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLRadioButton;
+			productName = DLRadioButton;
+			productReference = 3E26BA03994713FBEB9C3406695782F1 /* DLRadioButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4ED5590E9508617B763973DBEF60E783 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BED8F38B6D4A3AD6DFF85D18F9F09435 /* DLRadioButton */,
+				5BCF8FB31EB4726D9016137FC3EB19AB /* Pods-Life4 */,
+				75ADF49CB0EE5C06E956EB81DA67986D /* Pods-Life4Tests */,
+				8442A4810DFC4A0C0DEB6D9899DFF36F /* Pods-Life4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		408EA36DB743F16116A6B19E9B4171A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		727C2694FB1093444C3640D259E66FA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8961E51E48F32A896073C1461708CB0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8DEEA805C872EA7640E4F0383822664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48A2371D20AF46091B914D9E9FCB8F74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6832E8B15B09102291B7A621E484E46F /* Pods-Life4-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491106F648A199B7352F838E2B5B107D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46076EBE819798CF04114E4BA095090B /* DLRadioButton-dummy.m in Sources */,
+				9621251F99E5C334E250D62BDFE22C8B /* DLRadioButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67102404AF079FDF75769FCA6387EEE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA04EDA8DE0E232DC1FC520E72B6E2CC /* Pods-Life4Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		771F93164131159333F7A40E30BCF143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E09F31E0837EB599F1F3366101026666 /* Pods-Life4UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D4DA78D48D9FFE9264C2ABA1F79CC97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Life4";
+			target = 5BCF8FB31EB4726D9016137FC3EB19AB /* Pods-Life4 */;
+			targetProxy = BC660E0ADE803D5681B5A5139AA3AA68 /* PBXContainerItemProxy */;
+		};
+		BB3A565081A92D977581FCD61508F0A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DLRadioButton;
+			target = BED8F38B6D4A3AD6DFF85D18F9F09435 /* DLRadioButton */;
+			targetProxy = 85517308AD4EA0F8EC52798CE1B1A66E /* PBXContainerItemProxy */;
+		};
+		FEB4995E05314B5AB81A2061991BDAA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Life4";
+			target = 5BCF8FB31EB4726D9016137FC3EB19AB /* Pods-Life4 */;
+			targetProxy = D301F10AB43BB5545E17CFF73CD91466 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1373A10D4BAF102A3393C5F511F5CF58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE34DAA409E34D5D29A5D4A0722FF8D5 /* DLRadioButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DLRadioButton/DLRadioButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DLRadioButton/DLRadioButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DLRadioButton/DLRadioButton.modulemap";
+				PRODUCT_MODULE_NAME = DLRadioButton;
+				PRODUCT_NAME = DLRadioButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		236AB7C075B3D956D3F25F207D8D4EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CFD2D4B5FC512474E285E7F2299F63E /* Pods-Life4Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Life4Tests/Pods-Life4Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Life4Tests/Pods-Life4Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30AC67ABC1A73339266F5E98EBB202F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64845BD6A941DD4E61C9F6D41BD614D5 /* Pods-Life4UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Life4UITests/Pods-Life4UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Life4UITests/Pods-Life4UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D576274B0B18AA16A73BFA539F04301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1317C1C3DA12320DA29948BD4AD97B52 /* Pods-Life4.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Life4/Pods-Life4-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Life4/Pods-Life4.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		63D03D65B8A4E4C1FD77D3A44D17DEC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8B84D781EF46099AD91CF723D9E54F6 /* Pods-Life4Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Life4Tests/Pods-Life4Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Life4Tests/Pods-Life4Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ABEDAE99AB9E9AFA145CDF2C97136835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A077C2A392ACA0B51B699ACE77ADB344 /* Pods-Life4UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Life4UITests/Pods-Life4UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Life4UITests/Pods-Life4UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AC1996B01479E7AE93C5628934ED2C82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3311253419B088DE0E69E499A13A28F7 /* Pods-Life4.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Life4/Pods-Life4-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Life4/Pods-Life4.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E2F34EF0D2F0B58932E0D9AD70B0FA0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE34DAA409E34D5D29A5D4A0722FF8D5 /* DLRadioButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DLRadioButton/DLRadioButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DLRadioButton/DLRadioButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DLRadioButton/DLRadioButton.modulemap";
+				PRODUCT_MODULE_NAME = DLRadioButton;
+				PRODUCT_NAME = DLRadioButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		309736D45E93FA807ED6E7B7B0D693C6 /* Build configuration list for PBXNativeTarget "Pods-Life4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABEDAE99AB9E9AFA145CDF2C97136835 /* Debug */,
+				30AC67ABC1A73339266F5E98EBB202F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87AB35F442A65AB7A3F31FE027C26974 /* Build configuration list for PBXNativeTarget "DLRadioButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1373A10D4BAF102A3393C5F511F5CF58 /* Debug */,
+				E2F34EF0D2F0B58932E0D9AD70B0FA0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904F06BA2BFFD952C5FBDC47847D0ED4 /* Build configuration list for PBXNativeTarget "Pods-Life4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D576274B0B18AA16A73BFA539F04301 /* Debug */,
+				AC1996B01479E7AE93C5628934ED2C82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC84FB85EA20CD6C95DD0E4ABC0E0296 /* Build configuration list for PBXNativeTarget "Pods-Life4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				236AB7C075B3D956D3F25F207D8D4EED /* Debug */,
+				63D03D65B8A4E4C1FD77D3A44D17DEC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

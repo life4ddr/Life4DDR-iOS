@@ -1,0 +1,16 @@
+PODS:
+  - DLRadioButton (1.4.12)
+
+DEPENDENCIES:
+  - DLRadioButton (~> 1.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DLRadioButton
+
+SPEC CHECKSUMS:
+  DLRadioButton: d7c4e225ed0e8013cef7be61455230c7557ad7c1
+
+PODFILE CHECKSUM: 0223c7218ad47f54469ff325a96ac45bb22b3404
+
+COCOAPODS: 1.7.5

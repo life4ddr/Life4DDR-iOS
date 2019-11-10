@@ -1,0 +1,6 @@
+framework module Pods_Life4 {
+  umbrella header "Pods-Life4-umbrella.h"
+
+  export *
+  module * { export * }
+}
