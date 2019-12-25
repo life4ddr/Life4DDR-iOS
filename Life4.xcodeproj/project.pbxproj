@@ -280,7 +280,6 @@
 				C18E10FBBCF5990D7F45FE59 /* Frameworks */,
 				C18E1685B91850B22216C010 /* Resources */,
 				99588839BE22627ADA91F4E2 /* [CP] Embed Pods Frameworks */,
-				9C04FAC223359846007783BA /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -433,23 +432,6 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Life4/Pods-Life4-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
-		};
-		9C04FAC223359846007783BA /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "rm -f \"$TARGET_BUILD_DIR/$EXECUTABLE_PATH\"\ncd \"$SRCROOT/$KONAN_PACKAGE_NAME\"; sh -c \". ./gradlew $KONAN_TASK -Pkonan.configuration.build.dir=\\\"$CONFIGURATION_BUILD_DIR\\\" \\\n-Pkonan.debugging.symbols=$DEBUGGING_SYMBOLS -Pkonan.optimizations.enable=$KONAN_ENABLE_OPTIMIZATIONS\"\nsh -c  \". ./gradlew copyExecutable -Pkonan.configuration.build.dir=\\\"$CONFIGURATION_BUILD_DIR\\\"\"\ncp \"$TARGET_BUILD_DIR/$KONAN_PACKAGE_NAME.kexe\" \"$TARGET_BUILD_DIR/$EXECUTABLE_PATH\"\n";
 		};
 		B123252D996C250595073BBA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
