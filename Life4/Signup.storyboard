@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sHO-8V-wqb">
-    <device id="retina4_0" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sHO-8V-wqb">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -20,34 +18,34 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UaK-wZ-SoU" userLabel="Content Guide">
-                                <rect key="frame" x="16" y="20" width="288" height="506"/>
+                                <rect key="frame" x="16" y="0.0" width="288" height="526"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WELCOME TO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bQj-rq-JzL" userLabel="Title">
-                                <rect key="frame" x="57" y="36" width="206" height="41"/>
+                                <rect key="frame" x="57" y="16" width="206" height="41"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="life4_logo_invert.png" translatesAutoresizingMaskIntoConstraints="NO" id="wLn-sL-rI6" userLabel="LIFE4 Logo">
-                                <rect key="frame" x="30.5" y="109" width="259" height="83"/>
+                                <rect key="frame" x="30.5" y="89" width="259" height="83"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="wLn-sL-rI6" secondAttribute="height" multiplier="72:23" id="tvT-1Z-hAi"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To get started, please tell us a bit about yourself." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6cX-5D-WpN" userLabel="Subtitle">
-                                <rect key="frame" x="16" y="224" width="288" height="41"/>
+                                <rect key="frame" x="16" y="204" width="288" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GBW-qx-6WZ">
-                                <rect key="frame" x="16" y="281" width="288" height="213"/>
+                                <rect key="frame" x="16" y="261" width="288" height="233"/>
                                 <connections>
                                     <segue destination="Sfe-Fg-gVg" kind="embed" id="Ady-jf-scP"/>
                                 </connections>
                             </containerView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KRU-75-CF1">
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KRU-75-CF1">
                                 <rect key="frame" x="0.0" y="526" width="320" height="42"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -113,25 +111,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="gs2-zy-dKU" userLabel="Input Fields">
-                                <rect key="frame" x="0.0" y="15" width="320" height="120"/>
+                                <rect key="frame" x="0.0" y="9" width="320" height="132"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Dancer Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rJC-2K-Of7" userLabel="Dancer Name Text Field">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
-                                        <nil key="textColor"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" returnKeyType="next" textContentType="nickname"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Rival Code (optional)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vts-P7-zAd" userLabel="Rival Code Text Field">
-                                        <rect key="frame" x="0.0" y="45" width="320" height="30"/>
-                                        <nil key="textColor"/>
+                                        <rect key="frame" x="0.0" y="49" width="320" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numberPad" returnKeyType="done" smartDashesType="yes"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Twitter Name (optional)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MET-RL-kxx" userLabel="Twitter Name Text Field">
-                                        <rect key="frame" x="0.0" y="90" width="320" height="30"/>
-                                        <nil key="textColor"/>
+                                        <rect key="frame" x="0.0" y="98" width="320" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="twitter"/>
                                     </textField>
                                 </subviews>
                             </stackView>
@@ -142,6 +137,7 @@
                             <constraint firstItem="gs2-zy-dKU" firstAttribute="centerY" secondItem="dGa-DZ-Zfs" secondAttribute="centerY" id="nlf-Dm-YgZ"/>
                             <constraint firstItem="gs2-zy-dKU" firstAttribute="centerX" secondItem="dGa-DZ-Zfs" secondAttribute="centerX" id="pq4-hg-1X6"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="Lqt-xX-cjX"/>
                     </view>
                     <size key="freeformSize" width="320" height="150"/>
                     <connections>
@@ -265,6 +261,7 @@
                             <constraint firstItem="4da-1X-K5X" firstAttribute="centerY" secondItem="C3Q-Fw-d43" secondAttribute="centerY" id="czN-Gu-FXg"/>
                             <constraint firstItem="4da-1X-K5X" firstAttribute="centerX" secondItem="C3Q-Fw-d43" secondAttribute="centerX" id="tnZ-6u-X5X"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="2sG-4l-OMA"/>
                     </view>
                     <size key="freeformSize" width="320" height="150"/>
                     <connections>
@@ -300,22 +297,22 @@ Don't worry about choosing the wrong set; you will still be placed accordingly.<
                                         <nil key="highlightedColor"/>
                                         <string key="userLabel">Placement sets are a quick way to get into the LIFE4 system or better learn where you should begin.  You choose which rank you want to try and place into.  When choosing a placement set, select which set you think you will most accurately be able to showcase your skill level in.  Don't worry about choosing the wrong set; you will still be placed accordingly.</string>
                                     </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="os8-f1-YYI">
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="os8-f1-YYI">
                                         <rect key="frame" x="0.0" y="332.5" width="320" height="260"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bod-HP-der" customClass="TrialListView" customModule="Life4" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bod-HP-der" customClass="TrialListView" customModule="Life4" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zPR-ZH-0IV" customClass="TrialListView" customModule="Life4" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zPR-ZH-0IV" customClass="TrialListView" customModule="Life4" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="70" width="320" height="50"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MqX-3d-CVR" customClass="TrialListView" customModule="Life4" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MqX-3d-CVR" customClass="TrialListView" customModule="Life4" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="140" width="320" height="50"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CIU-aM-tyE" customClass="TrialListView" customModule="Life4" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CIU-aM-tyE" customClass="TrialListView" customModule="Life4" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="210" width="320" height="50"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </view>
@@ -375,7 +372,7 @@ Don't worry about choosing the wrong set; you will still be placed accordingly.<
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wuS-bM-Hm4">
-                                <rect key="frame" x="0.0" y="20" width="320" height="506"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="526"/>
                             </containerView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="rUj-TU-tJq" userLabel="Bottom Buttons">
                                 <rect key="frame" x="0.0" y="526" width="320" height="42"/>
