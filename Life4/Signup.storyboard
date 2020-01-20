@@ -5,7 +5,6 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -42,7 +41,7 @@
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GBW-qx-6WZ">
                                 <rect key="frame" x="16" y="261" width="288" height="233"/>
                                 <connections>
-                                    <segue destination="Sfe-Fg-gVg" kind="embed" id="Ady-jf-scP"/>
+                                    <segue destination="lus-3K-C9s" kind="embed" id="NBe-ft-AzX"/>
                                 </connections>
                             </containerView>
                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KRU-75-CF1">
@@ -93,6 +92,7 @@
                             </mask>
                         </variation>
                     </view>
+                    <navigationItem key="navigationItem" id="SGZ-fv-Q3S"/>
                     <connections>
                         <outlet property="optionContainer" destination="GBW-qx-6WZ" id="UlR-Mw-n69"/>
                         <outlet property="signInButton" destination="KRU-75-CF1" id="EaO-1q-ng6"/>
@@ -105,7 +105,7 @@
         <!--Login Info View Controller-->
         <scene sceneID="NYl-eX-JaF">
             <objects>
-                <viewController id="Sfe-Fg-gVg" userLabel="Login Info View Controller" customClass="LoginInfoViewController" customModule="Life4" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginInfoViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Sfe-Fg-gVg" userLabel="Login Info View Controller" customClass="LoginInfoViewController" customModule="Life4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dGa-DZ-Zfs">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -139,27 +139,29 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Lqt-xX-cjX"/>
                     </view>
+                    <navigationItem key="navigationItem" id="biD-w9-yeU"/>
                     <size key="freeformSize" width="320" height="150"/>
                     <connections>
                         <outlet property="nameField" destination="rJC-2K-Of7" id="koP-gZ-eRj"/>
                         <outlet property="rivalCodeField" destination="Vts-P7-zAd" id="nXE-re-wRQ"/>
                         <outlet property="twitterNameField" destination="MET-RL-kxx" id="quc-iX-rpe"/>
+                        <segue destination="Yf9-gJ-hMG" kind="show" identifier="showLoginOptions" animates="NO" id="HZK-Yk-jzO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="msv-lu-DPW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-62" y="295"/>
+            <point key="canvasLocation" x="128" y="337"/>
         </scene>
         <!--Login Options View Controller-->
         <scene sceneID="Yfo-HD-XgQ">
             <objects>
-                <viewController id="Yf9-gJ-hMG" userLabel="Login Options View Controller" customClass="LoginOptionsViewController" customModule="Life4" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginOptionsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Yf9-gJ-hMG" userLabel="Login Options View Controller" customClass="LoginOptionsViewController" customModule="Life4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="C3Q-Fw-d43">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="4da-1X-K5X" userLabel="Start Modes">
-                                <rect key="frame" x="0.0" y="8" width="320" height="134"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="4da-1X-K5X" userLabel="Start Modes">
+                                <rect key="frame" x="0.0" y="1" width="320" height="148"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ANg-ya-tyn" customClass="DLRadioButton">
                                         <rect key="frame" x="8" y="8" width="304" height="34"/>
@@ -191,7 +193,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="6Pf-MP-NO2" customClass="DLRadioButton">
-                                        <rect key="frame" x="8" y="50" width="304" height="34"/>
+                                        <rect key="frame" x="8" y="57" width="304" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <state key="normal" title="Select a Rank from the List">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -220,7 +222,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="aPr-CJ-tYw" customClass="DLRadioButton">
-                                        <rect key="frame" x="8" y="92" width="304" height="34"/>
+                                        <rect key="frame" x="8" y="106" width="304" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <state key="normal" title="Start Without a Rank">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -249,9 +251,6 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="400" id="w2C-Yy-dW6"/>
-                                </constraints>
                                 <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                             </stackView>
                         </subviews>
@@ -263,6 +262,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="2sG-4l-OMA"/>
                     </view>
+                    <navigationItem key="navigationItem" id="JzL-8y-bLb"/>
                     <size key="freeformSize" width="320" height="150"/>
                     <connections>
                         <outlet property="noRankOption" destination="aPr-CJ-tYw" id="4BS-NQ-jwQ"/>
@@ -272,7 +272,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tOm-bZ-r1Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="606" y="295"/>
+            <point key="canvasLocation" x="868" y="337"/>
         </scene>
         <!--Placement List View Controller-->
         <scene sceneID="s8d-Fg-M4d">
@@ -361,7 +361,7 @@ Don't worry about choosing the wrong set; you will still be placed accordingly.<
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2BA-2d-VGn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1411.875" y="-576.76056338028172"/>
+            <point key="canvasLocation" x="1206" y="-233"/>
         </scene>
         <!--First Rank List View Controller-->
         <scene sceneID="c0m-yQ-LOs">
@@ -406,7 +406,24 @@ Don't worry about choosing the wrong set; you will still be placed accordingly.<
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zns-mQ-nxI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1412" y="188"/>
+            <point key="canvasLocation" x="1894" y="-233"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="qSR-Kj-a0J">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="lus-3K-C9s" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="EMl-ZN-ZWM">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Sfe-Fg-gVg" kind="relationship" relationship="rootViewController" id="YhL-tp-NJH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="udn-6x-LwD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-623" y="338"/>
         </scene>
     </scenes>
     <resources>

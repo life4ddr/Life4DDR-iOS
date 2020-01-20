@@ -317,6 +317,11 @@
 			attributes = {
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = PerrigoGames;
+				TargetAttributes = {
+					C18E1C9FAD755B1B9EE41B79 = {
+						DevelopmentTeam = UN93FT5X35;
+					};
+				};
 			};
 			buildConfigurationList = C18E1A57C970942FA6304223 /* Build configuration list for PBXProject "Life4" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -561,7 +566,9 @@
 			baseConfigurationReference = 70E00472746331C8875C8E55 /* Pods-Life4.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UN93FT5X35;
 				INFOPLIST_FILE = Life4/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.perrigogames.Life4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -721,7 +728,9 @@
 			baseConfigurationReference = 5260D4C965F23619EAEB0D65 /* Pods-Life4.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UN93FT5X35;
 				INFOPLIST_FILE = Life4/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.perrigogames.Life4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
